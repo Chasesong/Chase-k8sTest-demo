@@ -21,7 +21,6 @@ steps:
 image:
   - 'gcr.io/$PROJECT_ID/ethex-frontend:$COMMIT_SHA'
 timeout: '3600s'
-
 substitutions:
 # _DEPLOY_URL: "https://static.coinpool.com/resource/dist"
   _DEPLOY_URL: ""
